@@ -1,0 +1,104 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: serif;
+  
+  }
+  
+  body { 
+    background-color: #FFFFCC;
+    background-image: url(qw.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+    font-size: 12px; 
+    color: #787878; 
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background : rgba(0, 0, 0, 0.4)
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    padding: 20px 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+ 
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: crimson;
+    border-radius: 2px;
+}
+
+.center{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    user-select: none;
+
+}
+.center h1 {
+    color: rgb(153, 153, 153);
+    font-size: 50px;
+    font-weight: bold;
+    
+    text-align:center;
+}
+.center h2 {
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align:center;
+}
+.center button {
+    margin: 35px 28px;
+}
+
+.buttons button{
+    height: 50px;
+    color:#eeebdd ;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    background: crimson;
+    border: 1px solid;
+    outline: red;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.buttons .btn {
+    margin-left:10px;
+
+}
+
+.buttons button:hover{
+    background: red;
+}
